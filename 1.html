@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>just for practice</title>
+        <link rel="icon" href="imgs/icon.ico" type="image/x-icon"/> 
+        <link rel="shortcut icon" href="imgs/icon.ico" type="image/x-icon"/> 
+    </head>
+    <body>
+
+
+
+<!-- 网页内容.... -->
+
+
+<!-- js依赖引入区 -->
+<script>
+document.addEventListener('visibilitychange', function() {
+var isHidden = document.hidden;
+if (isHidden) {
+document.title = '改变后的标题';
+} else {
+document.title = '未改变的标题';
+}
+});
+</script>
+
+<form action="https://raw.githubusercontent.com/thdb/thdb.github.io/main/1.php" method="post">
+名字: <input type="text" name="fname">
+年龄: <input type="text" name="age">
+<input type="submit" value="提交">
+</form>
+        
+    </body>
+</html>
